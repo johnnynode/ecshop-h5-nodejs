@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+#cate{
+  height:100%;
+  padding-top:.44rem;
+  position: relative;
+ }
+
+#cate .back-btn .iconfont,#cate .back-btn{
+  color:#81838E;
+}
+#cate .navbar{
+  position: absolute;
+  top:0;
+  width:100%;
+}
+#cate .box-search{
+  display: inline-block;
+  width:70%;
+  height:100%;
+  margin-left:2%;
+}
+#cate .box-search>div{
+  border-radius: .1rem;
+  background-color: #f0f2f5;
+  height: 0.26rem;
+  margin-top: .08rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+#cate .box-search>div i{
+  display: block;
+  width: .2rem;
+  height:100%;
+  line-height: .26rem;
+  color:#797b7d;
+  font-size: .16rem;
+  margin:.01rem 0 0 .05rem;
+  text-align: center;
+}
+#cate .box-search>div .placeholder{
+  display: block;
+  font-size:.13rem;
+  height:100%;
+  line-height:.27rem;
+  -webkit-flex:1;
+  -ms-flex:1;
+  flex:1;
+  margin-left:.2rem;
+  background-color: transparent;
+  color:#b6b6b6;
+}
+
+#cate .cate-left{
+  float:left;
+  width:.9rem;
+  height:100%;
+  background-color: #fff;
+  overflow: hidden;
+}
+.cate-left-scroll{
+  height:100%;
+  overflow-y:auto;
+}
+.cate-left-scroll::-webkit-scrollbar,.cate-right-container::-webkit-scrollbar{
+  display: none;
+}
+.cate-left-scroll li{
+  position: relative;
+  text-align:center;
+  height:.5rem;
+  line-height:.5rem;
+  background-color: #fff;
+  color:#252525;
+  font-size:.13rem;
+
+}
+
+.cate-left-scroll li.cur{
+  background-color: #f3f4f6;
+  color:#F15454;
+  position: relative;
+  z-index: 1;
+}
+
+
+#cate .cate-right-container {
+  width:100%;
+  padding: 0 .1rem;
+  overflow-y: auto;
+  height: 100%;
+}
+
+#cate .cate-right{
+  height:100%;
+  overflow: hidden;
+  background-color: #f3f5f7;
+}
+
+.cate-promotion{
+  padding:.1rem 0 .05rem;
+}
+.cate-promotion a{
+  display: block;
+  width:100%;
+}
+.cate-promotion a img{
+  display: block;
+  width:100%;
+}
+.cate-left-list h3{
+  font-size:.13rem;
+}
+
+.cate-left-list ul{
+  background-color: #fff;
+}
+.cate-left-list ul li{
+  width:33.33333%;
+  float: left;
+  text-align:center;
+  padding:.1rem 0;
+}
+.cate-left-list li a{
+  display: block;
+  width:100%;
+  padding:0 .1rem;
+}
+.cate-left-list li a img{
+  display: block;
+  width:100%;
+}
+
+
+
+
+
+
+
+
+
+
