@@ -1,0 +1,15 @@
+{
+    "name": "ecshop-h5-nodejs",
+    "description": "",
+    "main": "index.js",
+    "authors": [],
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "vender"
+    ],
+    "license": "ISC",
+    "moduleType": [],
+    "homepage": "",
+    "dependencies": {}
+}
